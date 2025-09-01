@@ -1,0 +1,8 @@
+a=[]
+b=0
+n=int(input('Enter int number to convert into binary: '))
+while n>0:
+    b=n%2
+    a.append(b)
+    n=n//2
+print(a[::-1])  
